@@ -29,6 +29,7 @@ class Fraction:
 
         return Fraction(newsus // common, newjos // common)
 
+
     @classmethod
     def invert(cls, fraction):
         return cls(fraction.jos, fraction.sus)
